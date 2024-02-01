@@ -4,19 +4,46 @@ div > h3:first-child{
 div > p:first-child{
     color: red;
 }
+#greycol{
+    color: grey;
+}
+div > p:nth-of-type(3){
+    color: green;
+}
 .yellow{
     color: yellow;
+}  
+th{
+    background-color: red;
+    font-family: 'Merriweather', serif;
+    font-size: 25px;
 }
 table, th, td{
     border: 1px solid black;
     border-collapse:collapse;
+    padding: 8px;
 }
-tr:hover{
+.list-item:first-child{
+    background-color: blue;
+    font-family: 'Merriweather', serif;
+}    
+.list-item:nth-child(2) {
+    background-color: palevioletred;
+    font-family: 'Merriweather', serif;
+}
+.list-item:nth-child(3) {
+    background-color: blueviolet;
+    font-family: 'Merriweather', serif;
+}
+.list-item:nth-child(4) {
     background-color: yellow;
-    color: blue;
-    
+    font-family: 'Merriweather', serif;
 }
-th{
-    background-color: red;
+.list-item:nth-child(5) {
+    background-color: aqua;
+    font-family: 'Merriweather', serif;
 }
-
+.list-item:hover{
+    background-color: black;
+    color: aqua;
+}
