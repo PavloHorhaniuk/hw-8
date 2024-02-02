@@ -23,27 +23,36 @@ table, th, td{
     border-collapse:collapse;
     padding: 8px;
 }
-.list-item:first-child{
+tr > td:first-child {
     background-color: blue;
     font-family: 'Merriweather', serif;
 }    
-.list-item:nth-child(2) {
+tr > td:nth-child(2) {
     background-color: palevioletred;
     font-family: 'Merriweather', serif;
 }
-.list-item:nth-child(3) {
+tr > td:nth-child(3) {
     background-color: blueviolet;
     font-family: 'Merriweather', serif;
 }
-.list-item:nth-child(4) {
+tr > td:nth-child(4) {
     background-color: yellow;
     font-family: 'Merriweather', serif;
 }
-.list-item:nth-child(5) {
+tr > td:nth-child(5){
     background-color: aqua;
     font-family: 'Merriweather', serif;
 }
-.list-item:hover{
-    background-color: black;
-    color: aqua;
+tr th:hover{
+    background-color: tomato;
+    color: darkgreen;
+    outline: dotted;
 }
+tr > td:hover{
+    color: red;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+    
+
